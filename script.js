@@ -33,3 +33,7 @@ function numero() {
   document.getElementById("vvd").innerHTML = "lonate";
 }
 console.log(5 + 6);
+function inac() {
+  alert("this site is now active");
+  document.getElementById("inac").innerHTML = "now rolling";
+}
