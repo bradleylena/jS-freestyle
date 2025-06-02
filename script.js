@@ -18,5 +18,18 @@ function readyfunction() {
   document.getElementById("alert").innerHTML = "YOU HAVE ACTIVATED";
 }
 function function1() {
-  window.alert("CLICKED AGAIN?");
+  window.alert(6 + 5);
 }
+function func3() {
+  document.writeln(5 + 2);
+}
+
+document.getElementById("class7").innerHTML = "The value of z is " + z + ".";
+
+let x, y;
+x = 5;
+y = 3;
+function numero() {
+  document.getElementById("vvd").innerHTML = "lonate";
+}
+console.log(5 + 6);
