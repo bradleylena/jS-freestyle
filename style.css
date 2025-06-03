@@ -1,3 +1,21 @@
 #h3para {
   display: block;
 }
+/* Default Light Mode */
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 16px;
+  cursor: pointer;
+}
