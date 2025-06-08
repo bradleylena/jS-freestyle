@@ -98,5 +98,11 @@ function series() {
   cars.push("g63");
   console.log(cars);
   document.getElementById("ourseries").innerHTML = cars;
-  alert(cars);
 }
+{
+  const x = 18;
+  let vote = x >= 18 ? "Yes" : "No";
+  console.log(vote);
+}
+let loggedin = false;
+loggedin ||= console.log("Welcome User 1");
