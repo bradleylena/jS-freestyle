@@ -106,3 +106,49 @@ function series() {
 }
 let loggedin = false;
 loggedin ||= console.log("Welcome User 1");
+
+{
+  let loggedin = true;
+  loggedin && console.log("True info");
+}
+{
+  let x;
+  x ??= 5;
+  console.log(x);
+}
+{
+  let username;
+  username ||= "guest";
+  console.log(username);
+}
+{
+  let x = myfunction(4, 3);
+  function myfunction(a, b) {
+    return a * b;
+  }
+  console.log(x);
+}
+myObj = {
+  name: "John",
+  age: 30,
+  myCars: {
+    car1: "Ford",
+    car2: "BMW",
+    car3: "Fiat",
+  },
+};
+console.log(myObj.name);
+
+let person = {
+  firstname: "Brad",
+  secondname: "Lena",
+  fullname: function () {
+    return this.firstname + " " + this.secondname;
+  },
+};
+console.log(person.fullname());
+
+person.name = function () {
+  return (this.secondname + this.firstname).toUpperCase();
+};
+console.log(person.name());
