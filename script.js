@@ -162,4 +162,67 @@ console.log(person.name());
     },
   };
   console.log(cars.car());
+  console.log(cars);
+}
+{
+  // Create an Object
+  const person = {
+    name: "John",
+    age: 30,
+    city: "New York",
+  };
+
+  // Build a Text
+  let text = "";
+  for (let x in person) {
+    text += person[x] + " ";
+  }
+
+  // Display the Text
+  console.log(text);
+}
+{
+  const person = {
+    fname: "Brad",
+    sname: "Lena",
+  };
+  const myperson = Object.values(person);
+  console.log(myperson);
+}
+{
+  const person = {
+    name: "Ada",
+    age: 36,
+    city: "London",
+  };
+
+  Object.entries(person).forEach(([key, value]) => {
+    console.log(key + ": " + value);
+  });
+}
+{
+  const person = {
+    fname: "brad",
+    sname: "lena",
+  };
+  const mystring = JSON.stringify(person);
+  console.log(mystring);
+}
+{
+  const person = {
+    fname: "brad",
+    sname: "lena",
+  };
+  Object.entries(person).forEach(([key, value]) => {
+    console.log(key + value);
+  });
+}
+{
+  const car = {
+    type: "bmw",
+    color: "black",
+  };
+  Object.entries(car).forEach(([key, value]) => {
+    console.log(key + ":" + value);
+  });
 }
