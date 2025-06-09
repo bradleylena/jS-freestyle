@@ -152,3 +152,14 @@ person.name = function () {
   return (this.secondname + this.firstname).toUpperCase();
 };
 console.log(person.name());
+{
+  const cars = {
+    model: "Range",
+    color: "Black",
+    type: "SUV",
+    car: function () {
+      return (this.model + this.color).toUpperCase();
+    },
+  };
+  console.log(cars.car());
+}
